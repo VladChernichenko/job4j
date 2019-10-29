@@ -1,4 +1,4 @@
-package ru.job4j.converter.job4j.condition;
+package condition;
 
 public class Point {
     public static double distance(int x1, int y1, int x2, int y2) {

@@ -1,4 +1,4 @@
-package ru.job4j.converter.job4j.condition;
+package condition;
 
 public class TrgArea {
     public static double area(double a, double b, double c) {

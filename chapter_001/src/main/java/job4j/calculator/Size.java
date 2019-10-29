@@ -1,4 +1,4 @@
-package ru.job4j.converter.job4j.calculator;
+package ru.job4j.calculator;
 
 public class Size {
     public int add(int left, int right){

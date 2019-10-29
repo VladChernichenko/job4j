@@ -12,12 +12,4 @@ public class DummyBot {
         }
         return rsl;
     }
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Задайте вопрос");
-        String question = scanner.nextLine();
-        System.out.println(answer(question));
-        scanner.close();
-    }
 }
