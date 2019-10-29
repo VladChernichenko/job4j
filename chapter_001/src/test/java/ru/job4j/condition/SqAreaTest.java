@@ -2,7 +2,7 @@ package ru.job4j.condition;
 
 import org.junit.Assert;
 import org.junit.Test;
-import condition.SqArea;
+import job4j.condition.SqArea;
 public class SqAreaTest {
     @Test
     public void square(){

@@ -1,11 +1,9 @@
-package condition;
+package job4j.condition;
 
 public class SqArea {
     public static double square(int p, int k) {
         double h = p / (2 * (k + 1));
-        double l = (p * k) / (2 * (k + 1));
-        System.out.println("h = " + h);
-        System.out.println("l = " + l);
+        double l = h * k;
         return h * l;
     }
 
