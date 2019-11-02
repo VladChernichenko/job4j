@@ -8,8 +8,23 @@ import static org.junit.Assert.assertThat;
 
 public class SqMaxTest {
     @Test
-    public void findMax() {
-        int result = SqMax.max(1, 4, 2, 8);
-        assertThat(result, is(8));
+    public void first() {
+        int result = SqMax.max(16, 4, 2, 8);
+        assertThat(result, is(16));
+    }
+    @Test
+    public void second() {
+        int result = SqMax.max(16, 20, 2, 8);
+        assertThat(result, is(20));
+    }
+    @Test
+    public void third() {
+        int result = SqMax.max(16, 20, 25, 8);
+        assertThat(result, is(25));
+    }
+    @Test
+    public void forth() {
+        int result = SqMax.max(16, 20, 25, 30);
+        assertThat(result, is(30));
     }
 }
