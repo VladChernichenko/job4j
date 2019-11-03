@@ -27,4 +27,9 @@ public class SqMaxTest {
         int result = SqMax.max(16, 20, 25, 30);
         assertThat(result, is(30));
     }
+    @Test
+    public void fifth(){
+        int result = SqMax.max(16, 4, 20, 8);
+        assertThat(result, is(20));
+    }
 }

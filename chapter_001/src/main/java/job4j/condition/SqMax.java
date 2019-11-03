@@ -2,20 +2,8 @@ package job4j.condition;
 
 public class SqMax {
     public static int max(int first, int second, int third, int forth) {
-        int result = forth;
-        if (first > second) {
-            if (first > third) {
-                if (first > forth) {
-                    result = first;
-                }
-            }
-        } else if (second > third) {
-            if (second > forth) {
-                result = second;
-            }
-        } else if (third > forth) {
-            result = third;
-        }
-        return result;
+       int fs = first - second > 0 ? first : second;
+       int fst = third - fs > 0 ? third : fs;
+       return forth - fst > 0 ? forth : fst;
     }
 }
