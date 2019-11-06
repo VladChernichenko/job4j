@@ -8,7 +8,7 @@ public class PrimeNumberTest {
     @Test
     public void testPrimeNumber(){
         PrimeNumber p = new PrimeNumber();
-        int result = p.calc(5);
-        assertThat(result, is(3));
+        int result = p.calc(10);
+        assertThat(result, is(5));
     }
 }

@@ -1,0 +1,16 @@
+package ru.job4j.array;
+import job4j.array.Square;
+import org.junit.Test;
+import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertThat;
+
+public class SquareTest {
+    @Test
+    public void whenBound3Then149() {
+        int bound = 5;
+        Square square = new Square();
+        int[] rst = square.calculate(bound);
+        int[] expect = new int[] {1, 4, 9, 16, 25};
+        assertThat(rst, is(expect));
+    }
+}
