@@ -2,11 +2,12 @@ package job4j.array;
 
 public class Check {
     public boolean mono(boolean[] data) {
+
+        boolean result = false;
         for (boolean b : data) {
-            if (data[0] != b) {
-               return false;
-            }
+            result = data[0] == b;
+            if(!result) break;
         }
-        return true;
+        return result;
     }
 }
