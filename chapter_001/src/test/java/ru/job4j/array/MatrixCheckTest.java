@@ -1,6 +1,6 @@
 package ru.job4j.array;
 
-import job4j.area.MatrixCheck;
+import ru.job4j.area.MatrixCheck;
 import org.junit.Ignore;
 import org.junit.Test;
 import static org.hamcrest.core.Is.is;

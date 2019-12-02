@@ -1,6 +1,5 @@
 package ru.job4j.loop;
 
-import job4j.loop.Mortgage;
 import org.junit.Test;
 
 import static org.hamcrest.Matchers.is;

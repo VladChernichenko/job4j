@@ -1,6 +1,5 @@
 package ru.job4j.condition;
 
-import job4j.condition.Triangle;
 import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;

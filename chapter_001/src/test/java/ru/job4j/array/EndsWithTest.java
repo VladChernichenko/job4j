@@ -1,6 +1,5 @@
 package ru.job4j.array;
 
-import job4j.array.EndsWith;
 import org.junit.Test;
 
 import static org.hamcrest.Matchers.is;

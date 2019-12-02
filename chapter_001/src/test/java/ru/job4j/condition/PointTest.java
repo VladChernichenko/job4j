@@ -1,12 +1,11 @@
 package ru.job4j.condition;
 
-import job4j.condition.Point;
 import org.junit.Assert;
 import org.junit.Test;
 
 public class PointTest {
     @Test
-    public void distance(){
+    public void distance() {
         int x1 = 0;
         int x2 = 300;
         int y1 = 0;
